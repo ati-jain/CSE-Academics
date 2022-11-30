@@ -1,2 +1,2 @@
 # CSE-Academics
-Some useful resources to help you throughout your journey.
+Some useful resources that may help. 😛
