@@ -1,0 +1,30 @@
+Best achievable test error = 6354.1667
+Depth corresponding to this error = 5
+
+
+
+Variation in error with depth while pruning:-
+DEPTH        ERROR
+  5          6354.1667
+  2          3575.2079
+
+
+
+The depths for which the model overfits are: 5
+
+
+
+The pruned tree looks like:-
+Level 0:-    Extra Spicy?    
+Level 1:-    Extra Mushroom?    Leaf Node,Result=664.286    
+Level 2:-    Leaf Node,Result=900.0    Leaf Node,Result=716.667    
+
+
+Representation of the pruned tree in If-Else form:-
+  if Extra Spicy == True
+     if Extra Mushroom == True
+        Price = 900.0
+     else
+        Price = 716.6666666666666
+  else
+     Price = 664.2857142857143

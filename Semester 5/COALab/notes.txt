@@ -1,0 +1,7 @@
+The keyword forever in Verilog creates a block of code that will run continuously. It is similar to other loops in Verilog such as for loops and while loops. The main difference between these and the forever loop is that the forever loop will never stop running, whereas for and while have a limit.
+
+The value of a wire can only be read and not assigned in a function or block
+
+A reg (register) is a data object, which is holding the value from one procedural assignment to next one and are used only in different functions and procedural blocks.
+
+Integer is of reg data-type.

@@ -1,0 +1,17 @@
+FOR .i file
+cc -E file.c -o file.i
+
+FOR .s file
+cc -S file.c
+
+FOR annotated .s file
+cc -S -fverbose-asm file.c
+
+FOR more annotated .s file
+cc -g -Wa,-adhln -fverbose-asm file.c > file.s
+
+FOR .o file
+cc -c file.c
+
+FOR a.out
+cc file.o/file.s/file.c

@@ -1,0 +1,12 @@
+Size of dataset =4177
+
+No. of attributes =8
+
+Share in variance by each of the selected Principal Component axes is : [0.8255748  0.09384237 0.03491563]
+
+We need atleast 3 principal components to preserve the variance by 95%
+
+Applying K-means clustering with random initial centroids
+
+No. of clusters for which Normalised Mutual Inforamtion(NMI) is maximum = 5
+

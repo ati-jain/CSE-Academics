@@ -1,0 +1,9 @@
+Download full installer from website
+
+Extract
+
+"sudo ./xsetup" in the extracted folder
+
+install a library seperately
+
+done

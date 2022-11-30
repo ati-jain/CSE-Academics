@@ -1,0 +1,7 @@
+Datapath: A datapath is a collection of functional units such as arithmetic logic units or multipliers that perform data processing operations, registers, and buses. Along with the control unit it composes the central processing unit (CPU).
+
+Datapath element: A unit used to operate on or hold data within a processor. In the MIPS implementation, the datapath elements include the instruction and data memories, the register fi le, the ALU, and adders.
+
+ALU: In computing, an arithmetic logic unit (ALU) is a combinational digital circuit that performs arithmetic and bitwise operations on "integer" binary numbers.
+
+Register Files: The processor’s 32 general-purpose registers are stored in a structure called a register file.

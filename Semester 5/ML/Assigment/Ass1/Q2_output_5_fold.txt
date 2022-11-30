@@ -1,0 +1,55 @@
+Fold 0:
+Size of training data-set: 248
+
+Size of the new training data-set without outliers: 248
+
+Size of the testing data-set: 62
+
+Accuracy of the model: 62.903225806451616%
+
+
+
+Fold 1:
+Size of training data-set: 248
+
+Size of the new training data-set without outliers: 248
+
+Size of the testing data-set: 62
+
+Accuracy of the model: 67.74193548387096%
+
+
+
+Fold 2:
+Size of training data-set: 248
+
+Size of the new training data-set without outliers: 248
+
+Size of the testing data-set: 62
+
+Accuracy of the model: 61.29032258064516%
+
+
+
+Fold 3:
+Size of training data-set: 248
+
+Size of the new training data-set without outliers: 248
+
+Size of the testing data-set: 62
+
+Accuracy of the model: 72.58064516129032%
+
+
+
+Fold 4:
+Size of training data-set: 248
+
+Size of the new training data-set without outliers: 248
+
+Size of the testing data-set: 62
+
+Accuracy of the model: 67.74193548387096%
+
+
+
