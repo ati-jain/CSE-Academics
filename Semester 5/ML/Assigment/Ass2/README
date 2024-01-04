@@ -1,0 +1,21 @@
+Make sure the dataset is in the same directory as the .py files
+
+install requirements with command
+`pip install -r requirements.txt`
+
+
+QUESTION-1
+run question 1 with command
+`python3 q1.py`
+It will generate three files:-
+1) Output file: q1_output.txt
+2) Plot: Principal component Analysis plot.png
+3) Plot: K vs MNI.png
+
+
+QUESTION-2
+run question 2 with command
+`python3 q2.py`
+It will generate two files:-
+1) Output file: q2_output.txt
+2) Plot: Learning_Rate_vs_Accuracy.png

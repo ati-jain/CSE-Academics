@@ -1,0 +1,7 @@
+Size of training data-set: 217
+
+Size of the new training data-set without outliers: 217
+
+Size of the testing data-set: 93
+
+Accuracy of the model: 61.29032258064516%

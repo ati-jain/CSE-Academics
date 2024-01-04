@@ -1,0 +1,3 @@
+use large node size to optimize disk access, but structure data within a node using a tree with small node size, instead of using an array.
+
+creation of index: create index <index-name>

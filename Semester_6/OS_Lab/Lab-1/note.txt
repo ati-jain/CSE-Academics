@@ -1,0 +1,7 @@
+Shell scripts and functions are both interpreted. This means they are not compiled.
+A variable is nothing more than a pointer to the actual data.
+echo $0 will give the shell name.
+echo $SHELL will give the current shell.
+It is recommended to be careful with the spaces between braces and expression. No space produces a syntax error.
+-e to use escape characters
+-n to not put new line at end

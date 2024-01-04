@@ -1,0 +1,9 @@
+arr=[1, 2, 4, 7, 9]
+wordCount = 0
+
+for i in arr:
+	f = open("Assgn1_"+str(i)+"_1.sh", "r")
+	content = f.read().replace('=', ' = ').replace('|', ' | ').replace(';', ' ; ').replace(',', ' , ').replace('<', ' < ').replace('>', ' > ')
+	wordCount+=len(content.split())
+	
+print(wordCount)

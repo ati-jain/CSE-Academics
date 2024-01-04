@@ -1,0 +1,44 @@
+Inductive learning algorithms are able to classify unseen examples only because of their implicit inductive bias for selecting one consistent hypothesis over another. The bias associated with the CANDIDATE-ELIMINATION algorithm is that the target concept can be found in the provided hypothesis space (c E H). The output hypotheses and classifications of subsequent instances follow deductively from this assumption together with the observed training data.
+
+An unbiased learner cannot make inductive leaps to classify unseen examples.
+
+The true error (denoted errord(h)) of hypothesis h with respect to target concept c and distribution D is the probability that h will misclassify an instance drawn at random according to D.
+In the extreme, if D happens to assign zero probability to the instances for which h(x) = c(x) then, the error for the h in Figure 7.1 will be 1, despite the fact the h and c agree on a very large number of (zero probability) instances.
+
+A random variable can be viewed as the name of an experiment with a probabilistic outcome. Its value is the outcome of the experiment.
+
+random variable errors(h) obeys a Binomial distribution
+
+This provides an interval surrounding errord(h) into which errors(h) must fall 95% of the time. Equivalently, it provides the size of the interval surrounding errors(h) into which errord(h) must fall 95% of the time.
+
+Central Limit Theorem: mean = mu & s.d. = sigma/ root(n)
+
+We define the estimation bias to be the difference between the expected value of the estimator and the true value of the parameter. We look for an unbiased estimator.
+
+Note the probability Pr(d > 0) is equal to the probability that d^ has not overestimated d by more than .10.
+
+This procedure first partitions the data into k disjoint subsets of equal size, where this size is at least 30. It then trains and tests the learning algorithms k times, using each of the k subsets in turn as the test set, and using all remaining data as the training set.
+
+Tests where the hypotheses are evaluated over identical samples are called paired tests. Paired tests typically produce tighter confidence intervals because any differences in observed errors in a paired test are due to differences between the hypotheses only.
+
+One practical difficulty in applying Bayesian methods is that they typically require initial knowledge of many probabilities. When these probabilities are not known in advance they are often estimated based on background knowledge, previously available data, and assumptions about the form of the underlying distributions. A second practical difficulty is the significant computational cost required to determine the Bayes optimal hypothesis in the general case (linear in the number of candidate hypotheses). In certain specialized situations, this computational cost can be significantly reduced.
+
+the result of Bayesian inference depends strongly on the prior probabilities, which must be available in order to apply the method directly.
+
+a learning algorithm is a consistent learner provided it outputs a hypothesis that commits zero errors over the training examples. consistent hypothesis only.
+
+every consistent learner outputs a MAP hypothesis, if we assume a uniform prior probability distribution over H (i.e., P(hi) = P(hj) for all i, j), and if we assume deterministic, noise free training data (i.e., P(D|h) = 1 if D and h are consistent, and 0 otherwise).
+
+we described the inductive bias of the CANDIDATE-ELIMINATION algorithm as the assumption that the target concept c is included in the hypothesis space H
+
+Given that the noise ei obeys a Normal distribution with zero mean and unknown variance sigma^2, each di must also obey a Normal distribution with variance sigma^2 centered around the true target value f(xi) rather than zero.
+
+Intuitively, we can think of the MDL principle as recommending the shortest method for re-encoding the training data, where we count both the size of the hypothesis and any additional cost of encoding the data given this hypothesis.
+
+In general, the most probable classification of the new instance is obtained by combining the predictions of all hypotheses, weighted by their posterior probabilities.
+
+one curious property of the Bayes optimal classifier is that the predictions it makes can correspond to a hypothesis not contained in H!
+
+A Bayesian belief network describes the joint probability distribution for a set of variables.
+
+In Bayesian networks, each node is asserted to be conditionally independent of its nondescendants, given its immediate parents.

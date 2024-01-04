@@ -1,0 +1,17 @@
+GET http://142.251.16.104/index.html:80
+GET http://127.0.0.1/text.txt:8000
+GET http://127.0.0.1/downloadRegistrationCard.htm.pdf:8000
+GET http://127.0.0.1/test.html:8000
+GET http://0.0.0.0/text.txt:8000
+GET http://127.0.0.1/ALU.jpg:8000
+GET http://203.110.245.250/~agupta/networks
+GET http://172.253.62.99/index.html
+PUT http://127.0.0.1:8000 Assgn-4.pdf
+PUT http://127.0.0.1/IR:8000 test.html
+GET http://10.147.224.230/test.txt:8000
+PUT http://10.147.141.139:8080 Assgn-4.pdf
+PUT http://10.147.141.139/try2/trt/tre:8000 3-DirectComm.pdf
+PUT http://10.147.224.230:8000 3-DirectComm.pdf
+PUT http://10.147.224.230/try2:8000 test.txt
+GET http://10.147.233.232/try1/Assgn-4.pdf:8000
+

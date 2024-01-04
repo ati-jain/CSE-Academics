@@ -1,0 +1,15 @@
+if [[ $line =~ (^| )"$2"( |$) ]]
+sed -ri 's/^.{5,}$/Yes/
+find $1 -name '*.py'
+line_number=$((line_number+1))
+grep -o '#'.* <<< $line
+primes+=($i)
+for prime in ${primes[@]}
+if [ ! -f "main.csv" ]
+// print the second argument
+i=2
+echo ${!i}
+// convert to lower case
+echo ${opt,,}
+// set field seperator in awk
+awk -F ","

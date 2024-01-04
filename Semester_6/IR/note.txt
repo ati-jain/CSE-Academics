@@ -1,0 +1,42 @@
+Ranking the relevant documents
+Node Centrality: Relative importance of a node in a network
+
+HITS - Hyperlink-Induced Topic Search, by Kleinberg
+Authorities and Hub
+
+h <- A.a
+a <- A(transpose).h
+
+Hubs often transit to authorities.
+
+Iterative PageRank computation
+
+Random surfer model
+
+N x N transition probability matrix P.
+PageRank scores obtained as the principal
+left eigenvector of P
+
+Biased PageRank: Teleport only to select nodes
+
+Topic-sensitive PageRank: Run biased PageRank for relevant Topic
+
+TrustRank: Biased towards trusted websites
+
+
+
+
+differential semantics model: only calculates the difference/similarity in the semantic meaning of two words, not their actual meaning. Not referential.
+
+target words: the words you want to find the context of
+context words
+distributional matrix: co-occurence matrix.
+give some weightage, probability, tf-idf
+reduce dimensionality, LSA, PLSA, PCA
+Vector comparision, Euclidian, Cosine, Jaccard
+
+one-hot encoding
+
+word2vec encoding: each word is represented by a d-dimensional distribution vector, whose weights are learnt.
+SVD: singular vector decomposition. kind of reduce dimensionality. top k rank
+vetor addition: france + airline

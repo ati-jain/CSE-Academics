@@ -1,0 +1,40 @@
+removing links, emoji, and cleaning the data
+word to word translation using dictionary
+preprocessing the data
+query expansion
+vocab size: 15462
+Accuracy: 0.7888307155322862
+Percision: 0.9736842105263158
+Recall: 0.13309352517985612
+F1 score: 0.23417721518987344
+
+
+seeing if any bad word is coming
+Vocab size:  21201
+Accuracy: 0.8254799301919721
+Percision: 0.7804878048780488
+Recall: 0.2601626016260163
+F1 score: 0.3902439024390244
+
+
+giving more weightage to hate comments
+Vocab size:  21259
+Accuracy: 0.806282722513089
+Percision: 0.6106870229007634
+Recall: 0.5714285714285714
+F1 score: 0.5904059040590407
+
+
+slightly more weightage
+Accuracy: 0.8272251308900523
+Percision: 0.59375
+Recall: 0.6178861788617886
+F1 score: 0.6055776892430279
+
+
+likelihood with prior class probablity
+Vocab size:  21201
+Accuracy: 0.8132635253054101
+Percision: 0.8333333333333334
+Recall: 0.16260162601626016
+F1 score: 0.272108843537415

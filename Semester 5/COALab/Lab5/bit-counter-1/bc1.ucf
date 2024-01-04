@@ -1,0 +1,6 @@
+net "clk" loc = "p76";
+net "reset" loc = "p108";
+net "counter[0]" loc = "p139";
+net "counter[1]" loc = "p140";
+net "counter[2]" loc = "p137";
+net "counter[3]" loc = "p138";
