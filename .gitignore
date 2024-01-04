@@ -1,6 +1,7 @@
 # remove all videos
-*mp4
+*.mp4
 
+delCache
 Semester_7
 Semester_8
 

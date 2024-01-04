@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "mysql.h": "c"
-    },
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "SqlInJava/lib/mysql-connector-j-8.0.32.jar"
-    ]
-}
