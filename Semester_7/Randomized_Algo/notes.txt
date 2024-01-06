@@ -1,0 +1,4 @@
+Markov inequality is applicable only to non-negative random variables
+A discrete time stochastic process is called a Markov chain if the random variable Xt depends only on Xt−1 for every t ∈ T. This property is popularly known as memoryless property or Markov property.
+Given a start state (which may be a random state too), what is the expected number of steps the Markov chain takes to reach some state in the Markov chain? This is called hitting time.
+Given a start state (which may be a random state too), does there exist any limiting distribution (called stationary distribution) of the Markov chain? Is it unique? If yes, then how many steps the Markov chain takes to reach this unique stationary distribution. This is called mixing time.
